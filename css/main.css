@@ -27,6 +27,9 @@ align-items: center;
 justify-content: space-between;
 width: 100%;
 }
+.nav {
+margin-left: 1000px;
+}
 .NavigationItem {
 margin-left: 30px;
 font-family: 'Lexend Deca', sans-serif;
@@ -57,6 +60,18 @@ background-color: var(--background-color);
 a {
   text-decoration: none;
 }
+.description {
+  display: flex;
+  justify-content: left;
+}
+h1 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 45px;
+  color: var(--main-color);
+  }
 
 
 
