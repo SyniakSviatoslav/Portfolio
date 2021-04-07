@@ -2,6 +2,7 @@
 :root {
   --main-color: #f7fff7;
   --background-color: #ff6b6b;
+  --secondary-color: #ffe66d;
 }
 
 /* use variable this way color: var(--main-color)  */
@@ -15,7 +16,48 @@ body {
 background-color: var(--background-color);
 }
 header {
+position:fixed;
+top: 0px;
 font-family: 'Lexend Deca', sans-serif;
-color: var(--main-color);
+color: var(--background-color);
 font-size: 72px;
+background-color: var(--main-color);
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
 }
+.NavigationItem {
+margin-left: 30px;
+font-family: 'Lexend Deca', sans-serif;
+color: var(--background-color);
+font-size: 20px;
+border-radius: 5px;
+}
+.NavigationItem:hover {
+color: var(--main-color);
+background-color: var(--background-color);
+}
+.NavigationItem2 {
+  margin-right: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--background-color);
+  background-color: var(--main-color);
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  }
+.NavigationItem2:hover {
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--main-color);
+  background-color: var(--background-color);
+  font-size: 20px;
+  border-radius: 5px;
+  }
+a {
+  text-decoration: none;
+}
+
+
+
+
