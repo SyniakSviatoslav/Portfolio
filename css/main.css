@@ -63,8 +63,11 @@ a {
 
 .logo {
   display: flex;
-  margin-top: 150px;
-  margin-left: 900px;
+  position: absolute;
+  top: 150px;
+  right: 60px;
+  
+  
 }
 .description {
   display: flex;
@@ -73,20 +76,37 @@ a {
 }
 h1 {
   position: absolute;
-  margin-top: 100px;
-  margin-left: 60px;
+  margin-top: 200px;
+  margin-left: 120px;
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 45px;
+  font-size: 70px;
   color: var(--main-color);
   }
   h2 {
     position: absolute;
-    margin-top: 220px;
-    margin-left: 60px;
+    margin-top: 380px;
+    margin-left: 120px;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     color: var(--main-color);
     }
+    .icon1 {
+    position: absolute;
+    top: 500px;
+    left:120px;  
+    }
+    .icon2 {
+      position: absolute;
+      top: 500px; 
+      left:200px; 
+      }
+
+      .icon3 {
+        position: absolute;
+        top: 500px; 
+        left:280px; 
+        }
+    
 
 
 
