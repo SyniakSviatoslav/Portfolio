@@ -60,18 +60,34 @@ background-color: var(--background-color);
 a {
   text-decoration: none;
 }
+
+.logo {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 900px;
+}
 .description {
   display: flex;
   justify-content: left;
+  width: 400px;
 }
 h1 {
   position: absolute;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 60px;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 45px;
   color: var(--main-color);
   }
+  h2 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color: var(--main-color);
+    }
+
 
 
 
