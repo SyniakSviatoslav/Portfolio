@@ -93,6 +93,91 @@ h1 {
         to 
         {opacity:1;}
         }
+        
+        .logo1 {
+            position: absolute;
+        top: 200px;
+        left: 600px;
+        animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .logo2 {
+            position: absolute;
+        top: 200px;
+        left: 800px;
+        animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .logo3 {
+            position: absolute;
+        top: 200px;
+        left: 1000px;
+        animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .logo4 {
+            position: absolute;
+        top: 200px;
+        left: 1200px;
+        animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .p1 {
+            position: absolute;
+        top: 300px;
+        left: 590px;
+        font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  color: var(--background-color);
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+  animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .p2 {
+            position: absolute;
+        top: 300px;
+        left: 805px;
+        font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  color: var(--background-color);
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+  animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .p3{
+            position: absolute;
+        top: 300px;
+        left: 1015px;
+        font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  color: var(--background-color);
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+  animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .p4 {
+            position: absolute;
+        top: 300px;
+        left: 1190px;
+        font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  color: var(--background-color);
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+  animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+        .p5 {
+            position: absolute;
+        top: 450px;
+        left: 120px;
+        font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  color: var(--background-color);
+  animation-name: firstanimation;
+  animation-duration: 4s;
+        }
+                   
+                        
 
     
    
