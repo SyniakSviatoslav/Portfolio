@@ -93,43 +93,6 @@ h1 {
         to 
         {opacity:1;}
         }
-p {
-position: absolute;
-text-align: left;
-top: 350px;
-left: 120px;
-font-family: 'Lexend Deca', sans-serif;
-font-size: 30px;
-color: var(--background-color);
-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.15));
-animation-name: firstanimation;
-animation-duration: 4s;
-}
-.p2 {
-position: absolute;
-text-align: left;
-top: 850px;
-left: 120px;
-font-family: 'Lexend Deca', sans-serif;
-font-size: 30px;
-color: var(--background-color);
-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.15));
-animation-name: firstanimation;
-animation-duration: 4s;   
-}
-.logos {
-display: block;
-position: absolute;
-right: 100px;
-top: 150px;
-max-width: 100%;
-}
-.logoss {
- display: block;
- position: absolute;
- right: 100px;
- top: 780px;
- max-width: 100%;   
-}
+
     
    
